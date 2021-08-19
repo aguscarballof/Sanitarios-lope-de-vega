@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* FONTS NOTO SANS LIGHT */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
+/* font-family: 'Noto Sans TC', sans-serif; */
+
+html {
+  font-family: "Noto Sans TC", sans-serif;
+  font-style: unset;
+  font-size: 62, 5%; /*1 rem pasa a tener el valor de 10px*/
+}

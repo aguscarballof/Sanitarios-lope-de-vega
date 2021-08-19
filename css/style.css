@@ -1,0 +1,618 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* FONTS NOTO SANS LIGHT */
+/* font-family: 'Noto Sans TC', sans-serif; */
+html {
+  font-family: "Noto Sans TC", sans-serif;
+  font-style: unset;
+  font-size: 62, 5%;
+  /*1 rem pasa a tener el valor de 10px*/
+}
+
+/* HEADER */
+.menu-container {
+  width: 100%;
+  display: flex;
+  background-color: #298ab7;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.menu-container .photo-logo {
+  width: 20rem;
+  height: 10rem;
+  justify-content: center;
+  margin-right: 3rem;
+}
+.menu-container .menu {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  transition: transform 1s;
+}
+.menu-container .menu .item {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 3rem;
+}
+.menu-container .menu .item:hover {
+  transform: scale(1.5);
+  color: #fff;
+}
+
+/* FIN HEADER */
+/*FOOTER*/
+.footer {
+  background-color: #298ab7;
+  width: 100%;
+  display: flex;
+  /* UBICACION */
+  /* TELEFONO CONTACTO */
+  /* E-MAIL CONTACTO */
+  /* WHATSAPP */
+}
+.footer .footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin: 2rem 3rem 2rem 3rem;
+}
+.footer .ubicacion {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .ubicacion .ubicacion-png {
+  width: 3rem;
+  height: 3rem;
+}
+.footer .ubicacion .direccion {
+  color: #fff;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.footer .telefono-contacto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .telefono-contacto .telefono-png {
+  width: 3rem;
+  height: 3rem;
+}
+.footer .telefono-contacto .contacto {
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.footer .email-contacto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .email-contacto .sobre-email {
+  width: 3rem;
+  height: 3rem;
+}
+.footer .email-contacto .email {
+  color: #fff;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.footer .cta-whatsapp {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .cta-whatsapp .logo-whatsapp {
+  width: 3rem;
+  height: 3rem;
+}
+.footer .cta-whatsapp .whatsapp {
+  color: #fff;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* FIN DEL FOOTER */
+/* INDEX */
+/* INFO INDEX */
+.section-info {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+.section-info .info-text {
+  display: flex;
+  flex-direction: column;
+}
+.section-info .info-text .tittle-index {
+  color: #298ab7;
+  font-size: 3rem;
+  animation-name: title-mood;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: bold;
+  animation-duration: 2s;
+  animation-name: title-mood;
+}
+.section-info .info-text .tittle-index:hover {
+  color: #93d2e8;
+  font-style: italic;
+}
+.section-info .info-text .text {
+  font-style: italic;
+  font-size: 1.5rem;
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.section-info .img-tanque {
+  width: 100%;
+  height: 100%;
+}
+
+/* MEDIOS DE PAGO */
+.medios-pago {
+  width: 100%;
+  /* .col:hover {
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #93d2e8;
+  } */
+}
+.medios-pago .img-promo {
+  width: 50rem;
+  height: 30rem;
+}
+.medios-pago .img-medios-pago {
+  width: 20rem;
+  height: 20rem;
+}
+.medios-pago .card-title {
+  font-size: 1.5rem;
+  color: #298ab7;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: bold;
+}
+.medios-pago .card-text {
+  font-size: 1.2rem;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+/* FIN DE SECTION 1 */
+/* FIN DE INDEX */
+/* NOSOTROS */
+.sobre-nosotros {
+  display: flex;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+  align-items: center;
+}
+.sobre-nosotros .tittle-nosotros {
+  color: #298ab7;
+  font-size: 3rem;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: bold;
+  animation-duration: 2s;
+  animation-name: title-mood;
+}
+.sobre-nosotros .tittle-nosotros:hover {
+  color: #93d2e8;
+  font-style: italic;
+}
+.sobre-nosotros .texto-nosotros {
+  font-style: italic;
+  font-size: 1.5rem;
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.sobre-nosotros .img-carrousel {
+  width: 35rem;
+  height: 35rem;
+}
+
+.google {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+.google .title-reseñas {
+  color: #298ab7;
+  font-size: 2rem;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: bold;
+}
+.google .card-img-top {
+  width: 25rem;
+  height: 10rem;
+}
+.google .col:hover {
+  box-shadow: 1rem 1rem 1rem 1rem #93d2e8;
+}
+
+/*FIN NOSOTROS*/
+/* CATÁLOGO */
+.catalogo {
+  font-family: "Noto Sans TC", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /*.links-catalogo {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    .cta-links {
+      font-style: italic;
+      text-decoration: none;
+      color: #fff;
+      background-color: $bg-color-ppal;
+      font-size: nth($font-size, 2);
+      justify-content: space-between;
+      border-radius: 1rem;
+      padding: 0 2rem 0 2rem;
+    }
+  }*/
+}
+.catalogo .tittle-catalogo {
+  color: #298ab7;
+  font-size: 3rem;
+  justify-items: center;
+  margin-bottom: 5rem;
+  font-weight: bold;
+  animation-duration: 2s;
+  animation-name: title-mood;
+}
+.catalogo .card-catalogo {
+  transition: transform 2s;
+  margin-bottom: 8rem;
+}
+.catalogo .card-catalogo:hover {
+  transform: scale(1.1);
+}
+.catalogo .tittle-catalogo:hover {
+  color: #93d2e8;
+  font-style: italic;
+}
+.catalogo .card-title-catalogo {
+  font-size: 1.5rem;
+  color: #298ab7;
+  font-weight: bold;
+}
+.catalogo .card-text-catalogo {
+  font-size: 1.2rem;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.catalogo .btn {
+  background-color: #298ab7;
+  border-radius: 2rem;
+}
+.catalogo .cta-links {
+  color: #fff;
+  font-size: 1.2rem;
+  font-style: none;
+}
+
+/* FIN CATÁLOGO */
+/* PRESUPUESTOS OBRAS */
+/* SECTION 1 */
+.section-presupuesto {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  /* SECTION FORM PRESUPUESTO-CONTACTO */
+}
+.section-presupuesto .presupuesto {
+  display: flex;
+  flex-direction: column;
+}
+.section-presupuesto .presupuesto .tittle-presupuesto {
+  color: #298ab7;
+  font-size: 3rem;
+  align-items: center;
+  animation-duration: 2s;
+  animation-name: title-mood;
+}
+.section-presupuesto .presupuesto .tittle-presupuesto:hover {
+  color: #93d2e8;
+  font-style: italic;
+}
+.section-presupuesto .presupuesto .info-presupuesto {
+  font-style: italic;
+  color: black;
+  font-size: 1.5rem;
+  align-items: center;
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.section-presupuesto .presupuesto .photo-presupuesto {
+  width: 20rem;
+  height: 20rem;
+  align-items: center;
+}
+.section-presupuesto .form-presupuesto {
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.section-presupuesto .form-presupuesto .form-label-presup {
+  font-size: 1.2rem;
+}
+.section-presupuesto .form-presupuesto .btn-presup {
+  background-color: #298ab7;
+  border-radius: 2rem;
+  width: 7rem;
+  height: 3rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+/* FIN PRESUPUESTO OBRAS */
+/* CONTACTO */
+/* SECTION FORM CONTACT */
+.section-contact {
+  margin: 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Noto Sans TC", sans-serif;
+  flex-direction: column;
+  /* SECTION FORM CONTACTO  */
+  /* FIN SECTION FORM CONTACT */
+  /* SECTION MAP */
+}
+.section-contact .tittle-contact {
+  color: #298ab7;
+  font-size: 3rem;
+  font-weight: bold;
+  animation-duration: 2s;
+  animation-name: title-mood;
+  align-content: center;
+  align-content: flex-start;
+}
+.section-contact .tittle-contact:hover {
+  color: #93d2e8;
+  font-style: italic;
+}
+.section-contact .form-contact {
+  align-items: flex-start;
+}
+.section-contact .form-label {
+  font-size: 1.2rem;
+}
+.section-contact .btn {
+  background-color: #298ab7;
+  border-radius: 2rem;
+  width: 7rem;
+  height: 3rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.section-contact .ubicacion {
+  align-items: flex-end;
+  margin-top: 3rem;
+}
+.section-contact .ubicacion .mapa-local {
+  width: 125rem;
+  height: 30rem;
+}
+
+/* FIN SECTION MAP */
+/* MOBILE */
+@media only screen and (max-width: 480px) {
+  /* HEADER */
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu-container .photo-logo {
+    width: 100%;
+    justify-content: center;
+  }
+  .menu-container .menu {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* FOOTER */
+  footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+  }
+
+  /* INDEX */
+  .section-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-info .pagos-tarjetas {
+    justify-content: center;
+    width: 50%;
+  }
+
+  /* NOSOTROS */
+  .sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .sobre-nosotros .tittle-nosotros {
+    justify-content: center;
+  }
+  .sobre-nosotros .texto-nosotros {
+    justify-content: center;
+  }
+  .sobre-nosotros .img-carrousel {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* CATALOGO */
+  .catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .catalogo .tittle-catalogo {
+    justify-content: center;
+  }
+
+  /* PRESUPUESTO */
+  .section-presupuesto {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    /* SECTION TEXTOS PRESUPUESTO */
+    /* SECTION FORM PRESUPUESTO */
+    align-content: center;
+    margin: auto;
+    /*SECTION FORM PRESUPUESTO-CONTACTO*/
+  }
+  .section-presupuesto .tittle-presupuesto {
+    align-content: center;
+  }
+  .section-presupuesto .info-presupuesto {
+    align-content: center;
+  }
+  .section-presupuesto .photo-presupuesto {
+    align-content: center;
+    width: 100%;
+  }
+
+  /* CONTACTO */
+  .section-contact .ubicacion .mapa-local {
+    width: 100%;
+  }
+}
+/* TABLET */
+@media only screen and (min-widht: 481px) and (max-width: 960px) {
+  /* HEADER */
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .menu-container .photo-logo {
+    width: 100%;
+    justify-content: center;
+  }
+  .menu-container .menu {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* FOOTER */
+  footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+  }
+
+  /* INDEX */
+  .section-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-info .pagos-tarjetas {
+    justify-content: center;
+    width: 50%;
+  }
+
+  /* NOSOTROS */
+  .sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .sobre-nosotros .tittle-nosotros {
+    justify-content: center;
+  }
+  .sobre-nosotros .texto-nosotros {
+    justify-content: center;
+  }
+  .sobre-nosotros .img-carrousel {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* CATALOGO */
+  .catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .catalogo .tittle-catalogo {
+    justify-content: center;
+  }
+
+  /* PRESUPUESTO */
+  .section-presupuesto {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    /* SECTION TEXTOS PRESUPUESTO */
+    /* SECTION FORM PRESUPUESTO */
+    align-content: center;
+    margin: auto;
+    /*SECTION FORM PRESUPUESTO-CONTACTO*/
+  }
+  .section-presupuesto .tittle-presupuesto {
+    align-content: center;
+  }
+  .section-presupuesto .info-presupuesto {
+    align-content: center;
+  }
+  .section-presupuesto .photo-presupuesto {
+    align-content: center;
+    width: 100%;
+  }
+
+  /* CONTACTO */
+  .section-contact .ubicacion .mapa-local {
+    width: 100%;
+  }
+}
+/* DESKTOP */
+
+/*# sourceMappingURL=style.css.map */

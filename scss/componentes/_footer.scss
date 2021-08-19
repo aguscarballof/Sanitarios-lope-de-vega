@@ -1,0 +1,77 @@
+@import "../base/font-size";
+@import "../base/color";
+@import "../base/png-footer";
+@import "../base/mixin";
+@import "../base/medidas";
+/*FOOTER*/
+.footer {
+  background-color: $bg-color-ppal;
+  width: $width-pagina;
+  display: flex;
+
+  .footer-container {
+    @include parametro-flex(flex, center);
+    justify-content: space-around;
+    width: $width-pagina;
+    margin: 2rem 3rem 2rem 3rem;
+  }
+
+  /* UBICACION */
+  .ubicacion {
+    @include parametro-flex-footer(flex, center, column);
+
+    .ubicacion-png {
+      width: $ancho-png;
+      height: $alto-png;
+    }
+    .direccion {
+      color: #fff;
+      align-items: center;
+      font-size: nth($font-size, 1);
+    }
+  }
+  /* TELEFONO CONTACTO */
+  .telefono-contacto {
+    @include parametro-flex-footer(flex, center, column);
+
+    .telefono-png {
+      width: $ancho-png;
+      height: $alto-png;
+    }
+    .contacto {
+      color: #fff;
+      text-align: center;
+      align-items: center;
+      font-size: nth($font-size, 1);
+    }
+  }
+  /* E-MAIL CONTACTO */
+  .email-contacto {
+    @include parametro-flex-footer(flex, center, column);
+    .sobre-email {
+      width: $ancho-png;
+      height: $alto-png;
+    }
+    .email {
+      color: #fff;
+      align-items: center;
+      font-size: nth($font-size, 1);
+    }
+  }
+  /* WHATSAPP */
+  .cta-whatsapp {
+    @include parametro-flex-footer(flex, center, column);
+    .logo-whatsapp {
+      width: $ancho-png;
+      height: $alto-png;
+    }
+    .whatsapp {
+      color: #fff;
+      align-items: center;
+      text-decoration: none;
+      font-size: nth($font-size, 1);
+    }
+  }
+}
+
+/* FIN DEL FOOTER */

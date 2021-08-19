@@ -1,0 +1,103 @@
+/* TABLET */
+@media only screen and (min-widht: 481px) and (max-width: 960px) {
+  /* HEADER */
+
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .photo-logo {
+      width: 100%;
+      justify-content: center;
+    }
+    .menu {
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  /* FOOTER */
+  footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+  }
+  /* INDEX */
+  .section-info {
+    display: flex;
+    flex-direction: column;
+
+    .pagos-tarjetas {
+      justify-content: center;
+      width: 50%;
+    }
+  }
+
+  /* NOSOTROS */
+  .sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+
+    .tittle-nosotros {
+      justify-content: center;
+    }
+    .texto-nosotros {
+      justify-content: center;
+    }
+
+    .img-carrousel {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  /* CATALOGO */
+  .catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .tittle-catalogo {
+      justify-content: center;
+    }
+  }
+  /* PRESUPUESTO */
+
+  .section-presupuesto {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    /* SECTION TEXTOS PRESUPUESTO */
+    .tittle-presupuesto {
+      align-content: center;
+    }
+    .info-presupuesto {
+      align-content: center;
+    }
+    .photo-presupuesto {
+      align-content: center;
+      width: 100%;
+    }
+    /* SECTION FORM PRESUPUESTO */
+    align-content: center;
+    margin: auto;
+    /*SECTION FORM PRESUPUESTO-CONTACTO*/
+  }
+
+  /* CONTACTO */
+  .section-contact {
+    .ubicacion {
+      .mapa-local {
+        width: 100%;
+      }
+    }
+  }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 961px) {
+}

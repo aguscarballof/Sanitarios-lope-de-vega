@@ -1,0 +1,67 @@
+@import "../base/color";
+@import "../base/font-size";
+
+/* PRESUPUESTOS OBRAS */
+/* SECTION 1 */
+.section-presupuesto {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  .presupuesto {
+    display: flex;
+    flex-direction: column;
+
+    .tittle-presupuesto {
+      color: $color-title;
+      font-size: nth($font-size, 4);
+      align-items: center;
+      animation-duration: 2s;
+      animation-name: title-mood;
+    }
+    .tittle-presupuesto:hover {
+      color: #93d2e8;
+      font-style: italic;
+    }
+    .info-presupuesto {
+      font-style: italic;
+      color: black;
+      font-size: nth($font-size, 2);
+      align-items: center;
+      animation-duration: 2s;
+      animation-name: aparecer;
+    }
+    @keyframes aparecer {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    .photo-presupuesto {
+      width: 20rem;
+      height: 20rem;
+      align-items: center;
+    }
+  }
+  /* SECTION FORM PRESUPUESTO-CONTACTO */
+  .form-presupuesto {
+    display: flex;
+    align-items: center;
+    font-family: "Noto Sans TC", sans-serif;
+
+    .form-label-presup {
+      font-size: nth($font-size, 1);
+    }
+    .btn-presup {
+      background-color: $bg-color-ppal;
+      border-radius: 2rem;
+      width: 7rem;
+      height: 3rem;
+      color: #fff;
+      font-size: nth($font-size, 1);
+    }
+  }
+}
+
+/* FIN PRESUPUESTO OBRAS */

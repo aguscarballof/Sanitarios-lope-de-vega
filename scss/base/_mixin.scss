@@ -1,0 +1,10 @@
+@mixin parametro-flex($display, $align) {
+  display: $display;
+  align-items: $align;
+}
+
+@mixin parametro-flex-footer($display, $align, $flex-direction) {
+  display: $display;
+  align-items: $align;
+  flex-direction: $flex-direction;
+}

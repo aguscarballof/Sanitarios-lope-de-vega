@@ -1,0 +1,65 @@
+@import "../base/color";
+@import "../base/font-size";
+/* NOSOTROS */
+.sobre-nosotros {
+  display: flex;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+  align-items: center;
+
+  .tittle-nosotros {
+    color: $color-title;
+    font-size: nth($font-size, 4);
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: bold;
+    animation-duration: 2s;
+    animation-name: title-mood;
+  }
+  .tittle-nosotros:hover {
+    color: #93d2e8;
+    font-style: italic;
+  }
+  .texto-nosotros {
+    font-style: italic;
+    font-size: nth($font-size, 2);
+    animation-duration: 2s;
+    animation-name: aparecer;
+  }
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .img-carrousel {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+.google {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+
+  .title-reseñas {
+    color: $color-title;
+    font-size: nth($font-size, 3);
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: bold;
+  }
+  .card-img-top {
+    width: 25rem;
+    height: 10rem;
+  }
+  .col:hover {
+    box-shadow: 1rem 1rem 1rem 1rem #93d2e8;
+  }
+}
+
+/*FIN NOSOTROS*/
