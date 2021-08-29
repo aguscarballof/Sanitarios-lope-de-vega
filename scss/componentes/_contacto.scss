@@ -38,16 +38,4 @@
     font-size: nth($font-size, 1);
   }
   /* FIN SECTION FORM CONTACT */
-
-  /* SECTION MAP */
-  .ubicacion {
-    align-items: flex-end;
-    margin-top: 3rem;
-    .mapa-local {
-      width: 125rem;
-      height: 30rem;
-    }
-  }
 }
-
-/* FIN SECTION MAP */

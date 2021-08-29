@@ -46,14 +46,31 @@
     height: 100%;
   }
 }
+/* SECTION MAP */
+.ubicacion {
+  align-items: flex-end;
+  margin: 3rem;
+  .title-mapa {
+    color: $color-title;
+    font-size: nth($font-size, 4);
+    animation-name: title-mood;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: bold;
+    animation-duration: 2s;
+    animation-name: title-mood;
+  }
+  .mapa-local {
+    width: 100%;
+    height: 30rem;
+  }
+}
+/* FIN SECTION MAP */
 
 /* MEDIOS DE PAGO */
 .medios-pago {
   width: 100%;
-  .img-promo {
-    width: 50rem;
-    height: 30rem;
-  }
+  margin: 3rem;
+
   .img-medios-pago {
     width: 20rem;
     height: 20rem;
@@ -68,9 +85,6 @@
     font-size: nth($font-size, 1);
     font-family: "Noto Sans TC", sans-serif;
   }
-  /* .col:hover {
-    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #93d2e8;
-  } */
 }
 
 /* FIN DE SECTION 1 */

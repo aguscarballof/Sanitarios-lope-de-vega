@@ -7,9 +7,9 @@
   display: flex;
   background-color: $bg-color-ppal;
   font-family: "Noto Sans TC", sans-serif;
+
   .photo-logo {
-    width: 80%;
-    height: 20%;
+    width: 100%;
     justify-content: center;
     margin-right: 3rem;
   }
@@ -18,18 +18,14 @@
     display: flex;
     width: $width-pagina - 30%;
     margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
     font-size: nth($font-size, 1);
     transition: transform 1s;
     .item {
       text-decoration: none;
       color: #fff;
       margin-left: 3rem;
-    }
-    .item:hover {
-      transform: scale(1.5);
-      color: #fff;
+      margin-right: 3rem;
     }
   }
 }
