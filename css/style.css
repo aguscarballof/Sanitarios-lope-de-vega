@@ -274,21 +274,6 @@ html {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /*.links-catalogo {
-    display: flex;
-    list-style: none;
-    flex-direction: column;
-    .cta-links {
-      font-style: italic;
-      text-decoration: none;
-      color: #fff;
-      background-color: $bg-color-ppal;
-      font-size: nth($font-size, 2);
-      justify-content: space-between;
-      border-radius: 1rem;
-      padding: 0 2rem 0 2rem;
-    }
-  }*/
 }
 .catalogo .tittle-catalogo {
   color: #298ab7;
@@ -323,7 +308,7 @@ html {
   background-color: #298ab7;
   border-radius: 2rem;
 }
-.catalogo .cta-links {
+.catalogo .btn .cta-links {
   color: #fff;
   font-size: 1.2rem;
   font-style: none;
@@ -393,42 +378,18 @@ html {
 
 /* FIN PRESUPUESTO OBRAS */
 /* CONTACTO */
-/* SECTION FORM CONTACT */
-.section-contact {
-  margin: 3rem;
-  display: flex;
-  justify-content: space-between;
-  font-family: "Noto Sans TC", sans-serif;
-  flex-direction: column;
-  /* SECTION FORM CONTACTO  */
-  /* FIN SECTION FORM CONTACT */
+/* SECTION BLOG */
+.cards-blog {
+  width: 100%;
 }
-.section-contact .tittle-contact {
-  color: #298ab7;
-  font-size: 3rem;
-  font-weight: bold;
-  animation-duration: 2s;
-  animation-name: title-mood;
-  align-content: center;
-  align-content: flex-start;
-}
-.section-contact .tittle-contact:hover {
-  color: #93d2e8;
-  font-style: italic;
-}
-.section-contact .form-contact {
-  align-items: flex-start;
-}
-.section-contact .form-label {
-  font-size: 1.2rem;
-}
-.section-contact .btn {
+.cards-blog .btn {
   background-color: #298ab7;
   border-radius: 2rem;
-  width: 7rem;
-  height: 3rem;
+}
+.cards-blog .btn .cta-links {
   color: #fff;
   font-size: 1.2rem;
+  font-style: none;
 }
 
 /* MOBILE */

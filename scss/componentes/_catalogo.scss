@@ -39,28 +39,12 @@
   .btn {
     background-color: $bg-color-ppal;
     border-radius: 2rem;
-  }
-  .cta-links {
-    color: #fff;
-    font-size: nth($font-size, 1);
-    font-style: none;
-  }
-
-  /*.links-catalogo {
-    display: flex;
-    list-style: none;
-    flex-direction: column;
     .cta-links {
-      font-style: italic;
-      text-decoration: none;
       color: #fff;
-      background-color: $bg-color-ppal;
-      font-size: nth($font-size, 2);
-      justify-content: space-between;
-      border-radius: 1rem;
-      padding: 0 2rem 0 2rem;
+      font-size: nth($font-size, 1);
+      font-style: none;
     }
-  }*/
+  }
 }
 
 /* FIN CATÁLOGO */
