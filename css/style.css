@@ -280,6 +280,7 @@ html {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin: 3rem 3rem 3rem 3rem;
 }
 .catalogo .tittle-catalogo {
   color: #298ab7;
@@ -336,6 +337,7 @@ html {
 .section-presupuesto .presupuesto .tittle-presupuesto {
   color: #298ab7;
   font-size: 3rem;
+  margin-left: 3rem;
   align-items: center;
   animation-duration: 2s;
   animation-name: title-mood;
@@ -348,6 +350,7 @@ html {
   font-style: italic;
   color: black;
   font-size: 1.5rem;
+  margin-left: 3rem;
   align-items: center;
   animation-duration: 2s;
   animation-name: aparecer;
@@ -361,6 +364,8 @@ html {
   }
 }
 .section-presupuesto .presupuesto .photo-presupuesto {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
   width: 20rem;
   height: 20rem;
   align-items: center;
@@ -369,6 +374,8 @@ html {
   display: flex;
   align-items: center;
   font-family: "Noto Sans TC", sans-serif;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 .section-presupuesto .form-presupuesto .form-label-presup {
   font-size: 1.2rem;
