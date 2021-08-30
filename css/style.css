@@ -25,7 +25,6 @@ html {
 .menu-container .photo-logo {
   width: 100%;
   justify-content: center;
-  margin-right: 3rem;
 }
 .menu-container .menu {
   display: flex;
