@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* HTML */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
 * {
   margin: 0;
@@ -127,6 +128,7 @@ html {
   margin-right: 3rem;
   margin-left: 3rem;
   margin-top: 3rem;
+  /* CARROUSEL INDEX */
 }
 .section-info .info-text {
   display: flex;
@@ -164,7 +166,7 @@ html {
   height: 100%;
 }
 
-/* SECTION MAP */
+/*  MAP INDEX */
 .ubicacion {
   align-items: flex-end;
   margin: 3rem;
@@ -204,9 +206,10 @@ html {
   font-family: "Noto Sans TC", sans-serif;
 }
 
-/* FIN DE SECTION 1 */
+/* FIN MEDIOS DE PAGO INDEX */
 /* FIN DE INDEX */
 /* NOSOTROS */
+/* SECTION INFO NOSOTROS */
 .sobre-nosotros {
   display: flex;
   margin-right: 3rem;
@@ -214,6 +217,7 @@ html {
   margin-top: 3rem;
   margin-bottom: 8rem;
   align-items: center;
+  /* CARROUSEL NOSOTROS */
 }
 .sobre-nosotros .tittle-nosotros {
   color: #298ab7;
@@ -246,6 +250,7 @@ html {
   height: 35rem;
 }
 
+/* RESEÑAS GOOGLE */
 .google {
   display: flex;
   flex-direction: column;
@@ -269,6 +274,7 @@ html {
 
 /*FIN NOSOTROS*/
 /* CATÁLOGO */
+/* SECTION CATALOGO */
 .catalogo {
   font-family: "Noto Sans TC", sans-serif;
   display: flex;
@@ -316,12 +322,12 @@ html {
 
 /* FIN CATÁLOGO */
 /* PRESUPUESTOS OBRAS */
-/* SECTION 1 */
+/*  SECTION PRESUPUESTO TEXTO */
 .section-presupuesto {
   display: flex;
   width: 100%;
   align-items: center;
-  /* SECTION FORM PRESUPUESTO-CONTACTO */
+  /* SECTION FORM */
 }
 .section-presupuesto .presupuesto {
   display: flex;
@@ -377,7 +383,7 @@ html {
 }
 
 /* FIN PRESUPUESTO OBRAS */
-/* CONTACTO */
+/* PROYECTOS REALIZADOS */
 /* SECTION BLOG */
 .cards-blog {
   width: 100%;
@@ -392,6 +398,7 @@ html {
   font-style: none;
 }
 
+/* FIN PROYECTOS REALIZADOS */
 /* MOBILE */
 @media only screen and (max-width: 480px) {
   /* HEADER */
