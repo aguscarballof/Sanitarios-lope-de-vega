@@ -391,15 +391,26 @@ html {
 
 /* FIN PRESUPUESTO OBRAS */
 /* PROYECTOS REALIZADOS */
-/* SECTION BLOG */
-.cards-blog {
+/* SECTION PROYECTOS */
+.blog {
+  margin: 3rem 3rem 3rem 3rem;
   width: 100%;
 }
-.cards-blog .btn {
+.blog .cards-blog .card-title {
+  font-size: 1.5rem;
+  color: #298ab7;
+  font-weight: bold;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.blog .cards-blog .card-text {
+  font-size: 1.2rem;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.blog .cards-blog .btn {
   background-color: #298ab7;
   border-radius: 2rem;
 }
-.cards-blog .btn .cta-links {
+.blog .cards-blog .btn .cta-links {
   color: #fff;
   font-size: 1.2rem;
   font-style: none;

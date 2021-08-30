@@ -2,16 +2,29 @@
 @import "../base/color";
 
 /* PROYECTOS REALIZADOS */
-/* SECTION BLOG */
-.cards-blog {
+/* SECTION PROYECTOS */
+.blog {
+  margin: 3rem 3rem 3rem 3rem;
   width: 100%;
-  .btn {
-    background-color: $bg-color-ppal;
-    border-radius: 2rem;
-    .cta-links {
-      color: #fff;
+  .cards-blog {
+    .card-title {
+      font-size: nth($font-size, 2);
+      color: $color-title;
+      font-weight: bold;
+      font-family: "Noto Sans TC", sans-serif;
+    }
+    .card-text {
       font-size: nth($font-size, 1);
-      font-style: none;
+      font-family: "Noto Sans TC", sans-serif;
+    }
+    .btn {
+      background-color: $bg-color-ppal;
+      border-radius: 2rem;
+      .cta-links {
+        color: #fff;
+        font-size: nth($font-size, 1);
+        font-style: none;
+      }
     }
   }
 }
