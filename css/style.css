@@ -198,8 +198,8 @@ html {
   }
 }
 .sobre-nosotros .img-carrousel {
-  width: 35rem;
-  height: 35rem;
+  width: 100%;
+  height: 100%;
 }
 
 /* RESEÑAS GOOGLE */
@@ -503,16 +503,13 @@ html {
   .sobre-nosotros {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
   .sobre-nosotros .tittle-nosotros {
-    justify-content: center;
+    align-content: center;
   }
   .sobre-nosotros .texto-nosotros {
-    justify-content: center;
-  }
-  .sobre-nosotros .img-carrousel {
-    width: 100%;
-    height: 100%;
+    align-content: center;
   }
 
   /* CATALOGO */
@@ -530,27 +527,26 @@ html {
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 100%;
     /* SECTION TEXTOS PRESUPUESTO */
     /* SECTION FORM PRESUPUESTO */
-    align-content: center;
-    margin: auto;
     /*SECTION FORM PRESUPUESTO-CONTACTO*/
   }
   .section-presupuesto .tittle-presupuesto {
     align-content: center;
+    width: auto;
   }
   .section-presupuesto .info-presupuesto {
     align-content: center;
+    width: auto;
   }
   .section-presupuesto .photo-presupuesto {
     align-content: center;
-    width: 100%;
+    width: auto;
   }
-
-  /* CONTACTO */
-  .section-contact .ubicacion .mapa-local {
-    width: 100%;
+  .section-presupuesto .form-presupuesto {
+    width: auto;
+    align-content: center;
+    margin: auto;
   }
 }
 /* DESKTOP */
