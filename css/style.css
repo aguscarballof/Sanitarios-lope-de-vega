@@ -53,68 +53,23 @@ html {
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  /* UBICACION */
-  /* TELEFONO CONTACTO */
-  /* E-MAIL CONTACTO */
-  /* WHATSAPP */
 }
-.footer-menu .footer-container .ubicacion {
+.footer-menu .footer-container .div-footer {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-.footer-menu .footer-container .ubicacion .ubicacion-png {
+.footer-menu .footer-container .div-footer .footer-png {
   width: 3rem;
   height: 3rem;
 }
-.footer-menu .footer-container .ubicacion .direccion {
+.footer-menu .footer-container .div-footer .texto-footer {
   color: #fff;
   align-items: center;
   font-size: 1.2rem;
-}
-.footer-menu .footer-container .telefono-contacto {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.footer-menu .footer-container .telefono-contacto .telefono-png {
-  width: 3rem;
-  height: 3rem;
-}
-.footer-menu .footer-container .telefono-contacto .contacto {
-  color: #fff;
-  text-align: center;
-  align-items: center;
-  font-size: 1.2rem;
-}
-.footer-menu .footer-container .email-contacto {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.footer-menu .footer-container .email-contacto .sobre-email {
-  width: 3rem;
-  height: 3rem;
-}
-.footer-menu .footer-container .email-contacto .email {
-  color: #fff;
-  align-items: center;
-  font-size: 1.2rem;
-}
-.footer-menu .footer-container .cta-whatsapp {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.footer-menu .footer-container .cta-whatsapp .logo-whatsapp {
-  width: 3rem;
-  height: 3rem;
-}
-.footer-menu .footer-container .cta-whatsapp .whatsapp {
-  color: #fff;
-  align-items: center;
   text-decoration: none;
-  font-size: 1.2rem;
 }
 
 /* FIN DEL FOOTER */
@@ -530,7 +485,7 @@ html {
     width: 100%;
     flex-wrap: wrap;
   }
-  .footer-menu .footer-container .footer-container div {
+  .footer-menu .footer-container .div-footer {
     width: 50%;
   }
 
