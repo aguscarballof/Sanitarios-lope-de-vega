@@ -511,12 +511,11 @@ html {
   }
 }
 /* TABLET */
-@media only screen and (min-widht: 481px) and (max-width: 970px) {
+@media only screen and (min-widht: 481px) and (max-width: 960px) {
   /* HEADER */
   .menu-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
   }
   .menu-container .photo-logo {
@@ -533,7 +532,6 @@ html {
   footer .footer-container {
     display: flex;
     flex-direction: column;
-    align-content: center;
     margin: auto;
   }
 
