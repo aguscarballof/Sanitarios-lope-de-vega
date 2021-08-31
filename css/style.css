@@ -43,75 +43,74 @@ html {
 
 /* FIN HEADER */
 /*FOOTER*/
-.footer {
+.footer-menu {
   background-color: #298ab7;
   width: 100%;
   display: flex;
+}
+.footer-menu .footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
   /* UBICACION */
   /* TELEFONO CONTACTO */
   /* E-MAIL CONTACTO */
   /* WHATSAPP */
 }
-.footer .footer-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  margin: 2rem 3rem 2rem 3rem;
-}
-.footer .ubicacion {
+.footer-menu .footer-container .ubicacion {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.footer .ubicacion .ubicacion-png {
+.footer-menu .footer-container .ubicacion .ubicacion-png {
   width: 3rem;
   height: 3rem;
 }
-.footer .ubicacion .direccion {
+.footer-menu .footer-container .ubicacion .direccion {
   color: #fff;
   align-items: center;
   font-size: 1.2rem;
 }
-.footer .telefono-contacto {
+.footer-menu .footer-container .telefono-contacto {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.footer .telefono-contacto .telefono-png {
+.footer-menu .footer-container .telefono-contacto .telefono-png {
   width: 3rem;
   height: 3rem;
 }
-.footer .telefono-contacto .contacto {
+.footer-menu .footer-container .telefono-contacto .contacto {
   color: #fff;
   text-align: center;
   align-items: center;
   font-size: 1.2rem;
 }
-.footer .email-contacto {
+.footer-menu .footer-container .email-contacto {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.footer .email-contacto .sobre-email {
+.footer-menu .footer-container .email-contacto .sobre-email {
   width: 3rem;
   height: 3rem;
 }
-.footer .email-contacto .email {
+.footer-menu .footer-container .email-contacto .email {
   color: #fff;
   align-items: center;
   font-size: 1.2rem;
 }
-.footer .cta-whatsapp {
+.footer-menu .footer-container .cta-whatsapp {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-.footer .cta-whatsapp .logo-whatsapp {
+.footer-menu .footer-container .cta-whatsapp .logo-whatsapp {
   width: 3rem;
   height: 3rem;
 }
-.footer .cta-whatsapp .whatsapp {
+.footer-menu .footer-container .cta-whatsapp .whatsapp {
   color: #fff;
   align-items: center;
   text-decoration: none;
@@ -187,9 +186,7 @@ html {
 /* FIN SECTION MAP */
 /* MEDIOS DE PAGO */
 .medios-pago {
-  width: 100%;
   margin-bottom: 3rem;
-  align-items: center;
 }
 .medios-pago .img-medios-pago {
   width: 20rem;
@@ -402,7 +399,7 @@ html {
   width: 100%;
 }
 .proyectos .blog {
-  margin-right: 0%;
+  margin-left: 3rem;
 }
 .proyectos .cards-blog .card-title {
   font-size: 1.5rem;
@@ -439,7 +436,7 @@ html {
   }
 
   /* FOOTER */
-  footer .footer-container {
+  .footer-menu .footer-container {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -529,10 +526,12 @@ html {
   }
 
   /* FOOTER */
-  footer .footer-container {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+  .footer-menu .footer-container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .footer-menu .footer-container .footer-container div {
+    width: 50%;
   }
 
   /* INDEX */

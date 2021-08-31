@@ -14,11 +14,13 @@
   }
 
   /* FOOTER */
-  footer .footer-container {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    margin: auto;
+  .footer-menu {
+    .footer-container {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      margin: auto;
+    }
   }
   /* INDEX */
   .section-info {

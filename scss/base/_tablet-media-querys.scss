@@ -19,11 +19,16 @@
   }
 
   /* FOOTER */
-  footer .footer-container {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+  .footer-menu {
+    .footer-container {
+      width: 100%;
+      flex-wrap: wrap;
+      .footer-container div {
+        width: 50%;
+      }
+    }
   }
+
   /* INDEX */
   .section-info {
     display: flex;
