@@ -3,9 +3,14 @@
 
 /* PROYECTOS REALIZADOS */
 /* SECTION PROYECTOS */
-.blog {
-  margin: 3rem 3rem 3rem 3rem;
+.proyectos {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   width: 100%;
+
+  .blog {
+    margin-right: 0%;
+  }
   .cards-blog {
     .card-title {
       font-size: nth($font-size, 2);

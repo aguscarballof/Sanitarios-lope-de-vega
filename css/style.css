@@ -396,25 +396,29 @@ html {
 /* FIN PRESUPUESTO OBRAS */
 /* PROYECTOS REALIZADOS */
 /* SECTION PROYECTOS */
-.blog {
-  margin: 3rem 3rem 3rem 3rem;
+.proyectos {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   width: 100%;
 }
-.blog .cards-blog .card-title {
+.proyectos .blog {
+  margin-right: 0%;
+}
+.proyectos .cards-blog .card-title {
   font-size: 1.5rem;
   color: #298ab7;
   font-weight: bold;
   font-family: "Noto Sans TC", sans-serif;
 }
-.blog .cards-blog .card-text {
+.proyectos .cards-blog .card-text {
   font-size: 1.2rem;
   font-family: "Noto Sans TC", sans-serif;
 }
-.blog .cards-blog .btn {
+.proyectos .cards-blog .btn {
   background-color: #298ab7;
   border-radius: 2rem;
 }
-.blog .cards-blog .btn .cta-links {
+.proyectos .cards-blog .btn .cta-links {
   color: #fff;
   font-size: 1.2rem;
   font-style: none;
@@ -507,7 +511,7 @@ html {
   }
 }
 /* TABLET */
-@media only screen and (min-widht: 481px) and (max-width: 960px) {
+@media only screen and (min-widht: 481px) and (max-width: 970px) {
   /* HEADER */
   .menu-container {
     display: flex;
