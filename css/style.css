@@ -188,7 +188,8 @@ html {
 /* MEDIOS DE PAGO */
 .medios-pago {
   width: 100%;
-  margin: 3rem;
+  margin-bottom: 3rem;
+  align-items: center;
 }
 .medios-pago .img-medios-pago {
   width: 20rem;
@@ -336,10 +337,12 @@ html {
 .section-presupuesto .presupuesto .tittle-presupuesto {
   color: #298ab7;
   font-size: 3rem;
+  font-family: "Noto Sans TC", sans-serif;
   margin-left: 3rem;
   align-items: center;
   animation-duration: 2s;
   animation-name: title-mood;
+  margin-top: 3rem;
 }
 .section-presupuesto .presupuesto .tittle-presupuesto:hover {
   color: #93d2e8;
@@ -349,6 +352,7 @@ html {
   font-style: italic;
   color: black;
   font-size: 1.5rem;
+  font-family: "Noto Sans TC", sans-serif;
   margin-left: 3rem;
   align-items: center;
   animation-duration: 2s;
@@ -375,6 +379,7 @@ html {
   font-family: "Noto Sans TC", sans-serif;
   margin-left: 3rem;
   margin-right: 3rem;
+  margin-bottom: 3rem;
 }
 .section-presupuesto .form-presupuesto .form-label-presup {
   font-size: 1.2rem;

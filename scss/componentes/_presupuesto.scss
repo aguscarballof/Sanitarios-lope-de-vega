@@ -7,6 +7,7 @@
   display: flex;
   width: 100%;
   align-items: center;
+
   .presupuesto {
     display: flex;
     flex-direction: column;
@@ -14,10 +15,12 @@
     .tittle-presupuesto {
       color: $color-title;
       font-size: nth($font-size, 4);
+      font-family: "Noto Sans TC", sans-serif;
       margin-left: 3rem;
       align-items: center;
       animation-duration: 2s;
       animation-name: title-mood;
+      margin-top: 3rem;
     }
     .tittle-presupuesto:hover {
       color: #93d2e8;
@@ -27,6 +30,7 @@
       font-style: italic;
       color: black;
       font-size: nth($font-size, 2);
+      font-family: "Noto Sans TC", sans-serif;
       margin-left: 3rem;
       align-items: center;
       animation-duration: 2s;
@@ -55,6 +59,7 @@
     font-family: "Noto Sans TC", sans-serif;
     margin-left: 3rem;
     margin-right: 3rem;
+    margin-bottom: 3rem;
 
     .form-label-presup {
       font-size: nth($font-size, 1);

@@ -170,7 +170,7 @@
   </section>
     <!-- MEDIOS DE PAGO -->
     <section class="medios-pago">
-      <div class="pagos-tarjetas row row-cols-1 row-cols-md-3 g-4">
+      <div class="pagos-tarjetas row row-cols-1 row-cols-md-3 g-4" style="max-width: 100%" >
         <div class="col">
           <div class="card h-100">
             <img
@@ -271,5 +271,12 @@
       integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
       crossorigin="anonymous"
     ></script>
+    <!-- SCRIPT ANIMACIONES -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script>
+      $('.navbar-nav>li>a').on('click', function(){
+          $('.navbar-collapse').collapse('hide');
+      });
+  </script>
   </body>
 </html>
