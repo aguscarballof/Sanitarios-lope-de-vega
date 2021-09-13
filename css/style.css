@@ -213,9 +213,6 @@ html {
   width: 25rem;
   height: 10rem;
 }
-.google .col:hover {
-  box-shadow: 1rem 1rem 1rem 1rem #93d2e8;
-}
 
 /*FIN NOSOTROS*/
 /* CATÁLOGO */
@@ -490,19 +487,6 @@ html {
   .section-info .pagos-tarjetas {
     justify-content: center;
     width: 50%;
-  }
-
-  /* NOSOTROS */
-  .sobre-nosotros {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .sobre-nosotros .tittle-nosotros {
-    align-content: center;
-  }
-  .sobre-nosotros .texto-nosotros {
-    align-content: center;
   }
 
   /* CATALOGO */
