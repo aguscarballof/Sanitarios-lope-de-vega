@@ -12,20 +12,12 @@
     width: 100%;
     justify-content: center;
   }
-
-  .links-encabezado {
-    display: flex;
-    width: $width-pagina - 30%;
-    margin: 0 auto;
-    justify-content: space-around;
-    font-size: nth($font-size, 1);
-    transition: transform 1s;
-    .item {
-      text-decoration: none;
-      color: #fff;
-      margin-left: 3rem;
-      margin-right: 3rem;
-    }
+  .nav-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 /* FIN HEADER */

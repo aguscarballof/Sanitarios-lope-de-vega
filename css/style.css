@@ -26,16 +26,9 @@ html {
   width: 100%;
   justify-content: center;
 }
-.menu-container .links-encabezado {
-  display: flex;
-  width: 70%;
-  margin: 0 auto;
-  justify-content: space-around;
-  font-size: 1.2rem;
-  transition: transform 1s;
-}
-.menu-container .links-encabezado .item {
+.menu-container .nav-link {
   text-decoration: none;
+  font-size: 1rem;
   color: #fff;
   margin-left: 3rem;
   margin-right: 3rem;

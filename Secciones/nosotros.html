@@ -62,54 +62,61 @@
   <body>
     <!-- HEADER -->
     <header class="menu-container">
-      <a class="navbar-brand" href=../index.html">
-        <img
-          class="photo-logo"
-          src="../images/header/logo-sanitarios.png"
-          alt="Logo Sanitarios LP"
-        />
-      </a>
-      <nav class="navbar navbar-expand-lg navbar-light menu-container">
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-dark navbar--bgcolor
+          menu-container
+        "
+      >
         <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              class="photo-logo"
+              src="../images/header/logo-sanitarios.png"
+              alt="Logo Sanitarios LP"
+            />
+          </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border-white"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon btn btn-lg"></span>
           </button>
-          <div class="collapse navbar-collapse menu" id="navbarNav">
-            <ul class="navbar-nav">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav col justify-content-evenly align-items-baseline"
+            >
               <li class="nav-item">
                 <a
-                  class="nav-link item"
+                  class="nav-link text-lg"
                   aria-current="page"
                   href="../index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link item" href="../Secciones/nosotros.html"
+                <a class="nav-link active" href="../Secciones/nosotros.html"
                   >Nosotros</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link item" href="../Secciones/catalogo.html"
+                <a class="nav-link" href="../Secciones/catalogo.html"
                   >Catálogo</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link item" href="../Secciones/presupuesto.html"
+                <a class="nav-link" href="../Secciones/presupuesto.html"
                   >Presupuestos</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link item" href="../Secciones/proyectos.html"
-                  >Proyectos Realizados</a
+                <a class="nav-link" href="../Secciones/proyectos.html"
+                  >Proyectos realizados</a
                 >
               </li>
             </ul>
@@ -251,13 +258,17 @@
         </div>
       </div>
     </footer>
-       <!-- SCRIPT ANIMACIONES -->
-       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-       <script>
-         $('.navbar-nav>li>a').on('click', function(){
-             $('.navbar-collapse').collapse('hide');
-         });
-     </script>
+    <!-- SCRIPT ANIMACIONES -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(".navbar-nav>li>a").on("click", function () {
+        $(".navbar-collapse").collapse("hide");
+      });
+    </script>
     <!-- BOOTSTRAP -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
