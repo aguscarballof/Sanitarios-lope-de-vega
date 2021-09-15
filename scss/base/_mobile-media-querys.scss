@@ -21,44 +21,4 @@
       margin: auto;
     }
   }
-
-  /* NOSOTROS */
-  .sobre-nosotros {
-    display: flex;
-    flex-direction: column;
-
-    .tittle-nosotros {
-      justify-content: center;
-    }
-    .texto-nosotros {
-      justify-content: center;
-    }
-
-    .img-carrousel {
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  /* CATALOGO */
-  .catalogo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .tittle-catalogo {
-      justify-content: center;
-    }
-  }
-}
-/* TABLET */
-@media only screen and (min-widht: 481px) and (max-width: 960px) {
-  /* CATALOGO */
-  .catalogo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .tittle-catalogo {
-      justify-content: center;
-    }
-  }
 }
