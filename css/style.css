@@ -319,8 +319,6 @@ html {
   display: flex;
   align-items: center;
   font-family: "Noto Sans TC", sans-serif;
-  margin-left: 3rem;
-  margin-right: 3rem;
   margin-bottom: 3rem;
 }
 .section-presupuesto .form-presupuesto .form-label-presup {
@@ -413,34 +411,6 @@ html {
   .catalogo .tittle-catalogo {
     justify-content: center;
   }
-
-  /* PRESUPUESTO */
-  .section-presupuesto {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    width: 100%;
-    /* SECTION TEXTOS PRESUPUESTO */
-    /* SECTION FORM PRESUPUESTO */
-    align-content: center;
-    margin: auto;
-    /*SECTION FORM PRESUPUESTO-CONTACTO*/
-  }
-  .section-presupuesto .tittle-presupuesto {
-    align-content: center;
-  }
-  .section-presupuesto .info-presupuesto {
-    align-content: center;
-  }
-  .section-presupuesto .photo-presupuesto {
-    align-content: center;
-    width: 100%;
-  }
-
-  /* CONTACTO */
-  .section-contact .ubicacion .mapa-local {
-    width: 100%;
-  }
 }
 /* TABLET */
 @media only screen and (min-widht: 481px) and (max-width: 960px) {
@@ -453,34 +423,6 @@ html {
   .catalogo .tittle-catalogo {
     justify-content: center;
   }
-
-  /* PRESUPUESTO */
-  .section-presupuesto {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    /* SECTION TEXTOS PRESUPUESTO */
-    /* SECTION FORM PRESUPUESTO */
-    /*SECTION FORM PRESUPUESTO-CONTACTO*/
-  }
-  .section-presupuesto .tittle-presupuesto {
-    align-content: center;
-    width: auto;
-  }
-  .section-presupuesto .info-presupuesto {
-    align-content: center;
-    width: auto;
-  }
-  .section-presupuesto .photo-presupuesto {
-    align-content: center;
-    width: auto;
-  }
-  .section-presupuesto .form-presupuesto {
-    width: auto;
-    align-content: center;
-    margin: auto;
-  }
 }
-/* DESKTOP */
 
 /*# sourceMappingURL=style.css.map */

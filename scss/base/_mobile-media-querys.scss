@@ -49,38 +49,6 @@
       justify-content: center;
     }
   }
-  /* PRESUPUESTO */
-
-  .section-presupuesto {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    width: 100%;
-    /* SECTION TEXTOS PRESUPUESTO */
-    .tittle-presupuesto {
-      align-content: center;
-    }
-    .info-presupuesto {
-      align-content: center;
-    }
-    .photo-presupuesto {
-      align-content: center;
-      width: 100%;
-    }
-    /* SECTION FORM PRESUPUESTO */
-    align-content: center;
-    margin: auto;
-    /*SECTION FORM PRESUPUESTO-CONTACTO*/
-  }
-
-  /* CONTACTO */
-  .section-contact {
-    .ubicacion {
-      .mapa-local {
-        width: 100%;
-      }
-    }
-  }
 }
 /* TABLET */
 @media only screen and (min-widht: 481px) and (max-width: 960px) {
@@ -93,37 +61,4 @@
       justify-content: center;
     }
   }
-  /* PRESUPUESTO */
-
-  .section-presupuesto {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-
-    /* SECTION TEXTOS PRESUPUESTO */
-    .tittle-presupuesto {
-      align-content: center;
-      width: auto;
-    }
-    .info-presupuesto {
-      align-content: center;
-      width: auto;
-    }
-    .photo-presupuesto {
-      align-content: center;
-      width: auto;
-    }
-    /* SECTION FORM PRESUPUESTO */
-    .form-presupuesto {
-      width: auto;
-      align-content: center;
-      margin: auto;
-    }
-
-    /*SECTION FORM PRESUPUESTO-CONTACTO*/
-  }
-}
-
-/* DESKTOP */
-@media only screen and (min-width: 961px) {
 }
