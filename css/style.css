@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* HTML */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
 * {
@@ -65,7 +64,9 @@ html {
 }
 
 /* FIN DEL FOOTER */
+
 /* INDEX */
+
 /* INFO INDEX */
 .section-info {
   display: flex;
@@ -73,7 +74,6 @@ html {
   margin-right: 3rem;
   margin-left: 3rem;
   margin-top: 3rem;
-  /* CARROUSEL INDEX */
 }
 .section-info .info-text {
   display: flex;
@@ -106,6 +106,7 @@ html {
     opacity: 1;
   }
 }
+/* CARROUSEL INDEX */
 .section-info .img-tanque {
   width: 100%;
   height: 100%;
@@ -131,6 +132,7 @@ html {
 }
 
 /* FIN SECTION MAP */
+
 /* MEDIOS DE PAGO */
 .medios-pago {
   margin-bottom: 3rem;
@@ -150,10 +152,12 @@ html {
   font-size: 1.2rem;
   font-family: "Noto Sans TC", sans-serif;
 }
-
 /* FIN MEDIOS DE PAGO INDEX */
+
 /* FIN DE INDEX */
+
 /* NOSOTROS */
+
 /* SECTION INFO NOSOTROS */
 .sobre-nosotros {
   display: flex;
@@ -162,7 +166,6 @@ html {
   margin-top: 3rem;
   margin-bottom: 8rem;
   align-items: center;
-  /* CARROUSEL NOSOTROS */
 }
 .sobre-nosotros .tittle-nosotros {
   color: #298ab7;
@@ -190,6 +193,7 @@ html {
     opacity: 1;
   }
 }
+/* CARROUSEL NOSOTROS */
 .sobre-nosotros .img-carrousel {
   width: 100%;
   height: 100%;
@@ -213,9 +217,10 @@ html {
   width: 25rem;
   height: 10rem;
 }
-
 /*FIN NOSOTROS*/
+
 /* CATÁLOGO */
+
 /* SECTION CATALOGO */
 .catalogo {
   font-family: "Noto Sans TC", sans-serif;
@@ -262,15 +267,14 @@ html {
   font-size: 1.2rem;
   font-style: none;
 }
-
 /* FIN CATÁLOGO */
+
 /* PRESUPUESTOS OBRAS */
 /*  SECTION PRESUPUESTO TEXTO */
 .section-presupuesto {
   display: flex;
   width: 100%;
   align-items: center;
-  /* SECTION FORM */
 }
 .section-presupuesto .presupuesto {
   display: flex;
@@ -315,6 +319,7 @@ html {
   height: 20rem;
   align-items: center;
 }
+/* SECTION FORM */
 .section-presupuesto .form-presupuesto {
   display: flex;
   align-items: center;
@@ -332,8 +337,8 @@ html {
   color: #fff;
   font-size: 1.2rem;
 }
-
 /* FIN PRESUPUESTO OBRAS */
+
 /* PROYECTOS REALIZADOS */
 /* SECTION PROYECTOS */
 .proyectos {
@@ -363,8 +368,8 @@ html {
   font-size: 1.2rem;
   font-style: none;
 }
-
 /* FIN PROYECTOS REALIZADOS */
+
 /* MOBILE */
 @media only screen and (max-width: 480px) {
   /* HEADER */

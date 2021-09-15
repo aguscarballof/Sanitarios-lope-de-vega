@@ -1,11 +1,19 @@
 {
-  "name": "SanitariosLopedeVega",
+  "name": "aguscarballof",
   "version": "1.0.0",
+  "description": "Venta de productos para instalación, accesorios y repuestos de sanitarios en el barrio de Villa Devoto",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "AC SOLUCION DIGITAL",
-  "license": "ISC",
-  "description": "Venta de productos para instalación, accesorios y repuestos de sanitarios en el barrio de Villa Devoto, ubicados en Av. Lope de Vega a dos cuadras de Av. Beiro. Contactanos para recibir una cotización personalizada. Hacenos tu pedido por WhatsApp +5491144359424 ¡Te asesoramos en lo que necesites!"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aguscarballof/Sanitarios-lope-de-vega.git"
+  },
+  "author":{
+    "name":   "Agustina Carballo",
+    "email": "agustinacarballof@gmail.com"
+  }
+   
+  
 }
