@@ -11,7 +11,7 @@
 
   .footer-container {
     @include parametro-flex(flex, center);
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: $width-pagina;
 
     .div-footer {

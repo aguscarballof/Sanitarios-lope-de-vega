@@ -93,3 +93,88 @@
     }
   }
 }
+/* TABLET */
+@media only screen and (min-widht: 481px) and (max-width: 960px) {
+  /* HEADER */
+
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .photo-logo {
+      width: 100%;
+      justify-content: center;
+    }
+    .menu {
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  /* FOOTER */
+  .footer-menu {
+    .footer-container {
+      width: 100%;
+      flex-wrap: wrap;
+      .div-footer {
+        width: 50%;
+      }
+    }
+  }
+
+  /* INDEX */
+  .section-info {
+    display: flex;
+    flex-direction: column;
+
+    .pagos-tarjetas {
+      justify-content: center;
+      width: 50%;
+    }
+  }
+
+  /* CATALOGO */
+  .catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .tittle-catalogo {
+      justify-content: center;
+    }
+  }
+  /* PRESUPUESTO */
+
+  .section-presupuesto {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    /* SECTION TEXTOS PRESUPUESTO */
+    .tittle-presupuesto {
+      align-content: center;
+      width: auto;
+    }
+    .info-presupuesto {
+      align-content: center;
+      width: auto;
+    }
+    .photo-presupuesto {
+      align-content: center;
+      width: auto;
+    }
+    /* SECTION FORM PRESUPUESTO */
+    .form-presupuesto {
+      width: auto;
+      align-content: center;
+      margin: auto;
+    }
+
+    /*SECTION FORM PRESUPUESTO-CONTACTO*/
+  }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 961px) {
+}
